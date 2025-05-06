@@ -4,11 +4,11 @@
     <parent>
         <groupId>com.aks</groupId>
         <artifactId>common</artifactId>
-        <version>1.0.0</version>
+        <version>${revision}</version>
     </parent>
 
-    <artifactId>starter</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>common-starter</artifactId>
+    <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -7,12 +7,15 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>common</artifactId>
+    <artifactId>server</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>common-starter</module>
+        <module>user-server</module>
     </modules>
+
+    <name>server</name>
+    <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,12 +23,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
+            <groupId>com.aks</groupId>
+            <artifactId>common-starter</artifactId>
         </dependency>
     </dependencies>
 </project>

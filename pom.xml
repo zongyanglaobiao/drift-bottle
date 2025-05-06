@@ -9,6 +9,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>common</module>
+        <module>server</module>
     </modules>
 
     <properties>
@@ -89,6 +90,12 @@
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-gateway-spring-boot-starter</artifactId>
                 <version>${knife4j-gateway-spring-boot-starter.version}</version>
+            </dependency>
+            <!--	自定义 starter	-->
+            <dependency>
+                <groupId>com.aks</groupId>
+                <artifactId>common-starter</artifactId>
+                <version>${revision}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
